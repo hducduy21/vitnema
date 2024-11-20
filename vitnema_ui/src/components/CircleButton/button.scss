@@ -1,0 +1,16 @@
+.button {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    border: #ecf0f1 1px solid;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        border: #ffffff 2px solid;
+        color: #ffffff;
+    }
+}
